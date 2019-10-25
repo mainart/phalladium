@@ -1,0 +1,24 @@
+{
+    "name": "moon-mr/phalladium",
+    "description": "An extremely minimal PHP framework for the extensive web.",
+    "type": "framework",
+    "keywords": ["php", "framework", "router", "web"],
+    "homepage": "https://github.com/mr-moon/phalladium",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Alexander Moon",
+            "email": "mainarx@gmail.com"
+        }
+    ],
+    "autoload": {
+        "psr-4": {
+            "phalladium\\": "src/"
+        },
+        "files": ["src/functions.php"]
+    },
+    "require": {
+        "php": ">=7.1.0",
+        "ext-json": "*"
+    }
+}
